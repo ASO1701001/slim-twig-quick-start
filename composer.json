@@ -1,0 +1,18 @@
+{
+  "require": {
+    "ext-json": "*",
+    "slim/slim": "4.5.0",
+    "slim/psr7": "1.1.0",
+    "slim/twig-view": "3.1.0",
+    "swiftmailer/swiftmailer": "6.2.3",
+    "illuminate/database": "7.13.0",
+    "rakit/validation": "1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Application\\App\\": "src/App",
+      "Application\\Controller\\": "src/Controller",
+      "Application\\Middleware\\": "src/Middleware"
+    }
+  }
+}
